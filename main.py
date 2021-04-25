@@ -18,6 +18,7 @@ def process():
     return json.dumps(
         data,ensure_ascii=False) 
 
-#如何換成dir格式,一次得到所有值
+#如何換成dir格式,一次得到所有值 
+
 
 
