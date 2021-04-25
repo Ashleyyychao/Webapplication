@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action='/process' method="POST">
+        <p><label>姓名:</label>
+            <input type="text" name='name'>
+        </p>
+        <p><label>電話:</label>
+            <input type="phone" name='phone' placeholder="0900-000-000" autofocus>
+        </p>
+        <p><label>生日:</label>
+            <input type="date" name='birthday'>
+        </p>
+        <p><label>信箱:</label>
+            <input type="email" name='email'>
+        </p>
+        <p><label>職業</label>
+            <input type="radio" name="student" value="student">在校生
+            <input type="radio" name="worker" value="worker">畢業生
+        </p>
+        <p><label>意見欄:</label></p>
+        <textarea name="" cols="50" rows="5" placeholder="輸入您的意見..."></textarea>
+        <p><input type="submit" value="送出表單"></p>
+    </form>
+</body>
+
+</html>
